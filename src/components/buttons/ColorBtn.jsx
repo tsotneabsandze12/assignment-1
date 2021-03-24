@@ -8,7 +8,7 @@ const ColorBtn = ({color,onClick}) =>{
     )
 }
 
-ColorBtn.prototypes = {
+ColorBtn.propTypes = {
     color : PropTypes.string,
     onClick : PropTypes.func
 }

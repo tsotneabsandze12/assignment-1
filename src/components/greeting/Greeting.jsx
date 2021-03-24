@@ -10,7 +10,7 @@ const Greeting = ({text,description}) =>{
     )
 }
 
-Greeting.prototypes = {
+Greeting.propTypes = {
     text: PropTypes.string,
     description:PropTypes.string
 }

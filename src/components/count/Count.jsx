@@ -26,7 +26,7 @@ const Count = ({initialNumber}) => {
     );
 }
 
-Count.prototypes = {
+Count.propTypes = {
     initialNumber:PropTypes.number
 }
 

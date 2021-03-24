@@ -34,7 +34,7 @@ const Theme = ({initialBgColor,initialTextColor}) =>{
     )
 }
 
-Theme.prototypes = {
+Theme.propTypes = {
     initialColor : PropTypes.string
 }
 
